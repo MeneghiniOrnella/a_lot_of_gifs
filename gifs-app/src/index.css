@@ -10,10 +10,28 @@ input{
   font-size: 1.5em;
   width: 100%;
   background-color: rgb(37, 37, 37);
-  color: rgb(248, 210, 210);
+  color: rgb(255, 255, 255);
+  border-color: rgb(21, 221, 228);
   text-align: center;
 }
 ol{
   list-style:decimal;
   text-align: justify;
+}
+
+.GifGridItem{
+  align-content: center;
+  border: 0.1em solid rgb(84, 121, 121);
+  border-radius: 0.4em;
+  overflow: hidden;
+  margin: 0.5em;
+}
+.GifGridItem p {
+  text-align: center;
+}
+.card-grid{
+  align-content: center;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
 }
