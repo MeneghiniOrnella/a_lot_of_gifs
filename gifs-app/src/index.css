@@ -1,0 +1,19 @@
+body{
+  padding: 2em;
+  background-color: black;
+  color: white;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
+  justify-content: center;
+}
+input{
+  font-size: 1.5em;
+  width: 100%;
+  background-color: rgb(37, 37, 37);
+  color: rgb(248, 210, 210);
+  text-align: center;
+}
+ol{
+  list-style:decimal;
+  text-align: justify;
+}
